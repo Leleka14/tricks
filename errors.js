@@ -8,3 +8,7 @@ Execution failed for task ':app:packageReleaseBundle'.
    > At most one element <application> with namespace '' was expected, but 2 were found.
    
 Solution - AndroidManifest.xml must have only 1 <application></application>
+
+2. Freezing lottie on android.
+
+Solution - renderMode="SOFTWARE"
